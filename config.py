@@ -11,7 +11,7 @@ API_HASH = getenv("API_HASH", "e42eeae11a2f96bcfc5ec3b46a30adad")
 BOT_TOKEN = getenv("BOT_TOKEN", "6062022905:AAFjFdASrtYtMokfFwJwvtkgf0rhgG9Nlj0")
 DURATION_LIMIT = int(getenv("DURATION_LIMIT", "90"))
 
-OWNER_ID = int(getenv("OWNER_ID", "6441132285"))
+OWNER_ID = int(getenv("OWNER_ID", "5663585448"))
 
 PING_IMG = getenv("PING_IMG", "https://telegra.ph/file/b7939203c81ffee91e1a1.jpg")
 START_IMG = getenv("START_IMG", "https://telegra.ph/file/c3166102f1c949f1ea0f3.jpg")
