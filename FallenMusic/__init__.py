@@ -51,9 +51,7 @@ async def fallen_startup():
     global ASS_ID, ASS_NAME, ASS_USERNAME, ASS_MENTION, SUDOERS
 
     await app.start()
-    LOGGER.info(
-        "[•] \"
-    )
+    LOGGER.info("[•] \")
 
     getme = await app.get_me()
     BOT_ID = getme.id
@@ -62,9 +60,7 @@ async def fallen_startup():
     BOT_MENTION = getme.mention
 
     await app2.start()
-    LOGGER.info(
-        "[•] \"
-    )
+    LOGGER.info("[•] \")
 
     getme2 = await app2.get_me()
     ASS_ID = getme2.id
@@ -86,15 +82,9 @@ async def fallen_startup():
         SUDOERS.add(int(ANON))
 
     fallendb = {}
-    LOGGER.info(
-        "[•] \
-    "
-    )
+    LOGGER.info("[•] \")
 
-    LOGGER.info(
-        "[•] \
-        "
-    )
+    LOGGER.info("[•] \")
 
 
 asyncio.get_event_loop().run_until_complete(fallen_startup())
